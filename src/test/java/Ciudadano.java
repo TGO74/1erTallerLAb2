@@ -7,7 +7,7 @@ public class Ciudadano {
 	private String rut;
 	private ArrayList<Permiso> permisosCiudadano = new ArrayList<Permiso>();
 
-	public Ciudadano(String nombre, int id, String rut) {
+	public Ciudadano(String nombre, String rut) {
 		this.nombre = nombre;
 		this.id = id;
 		this.rut = rut;
