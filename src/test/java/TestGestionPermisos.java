@@ -2,6 +2,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 public class TestGestionPermisos {
 
+
     public static void main(String[] args) {
         // Crear instancia de GestionPermisos
         GestionPermisos gestionPermisos = new GestionPermisos();
@@ -9,6 +10,7 @@ public class TestGestionPermisos {
         // Crear algunos ciudadanos
         Ciudadano ciudadano1 = new Ciudadano("Juan", "12345678-9");
         Ciudadano ciudadano2 = new Ciudadano("María", "98765432-1");
+        Ciudadano ciudadano3 = new Ciudadano("Pedro", "12345678-9");
 
         // Registrar ciudadanos
         gestionPermisos.registarCiudadano(ciudadano1);
